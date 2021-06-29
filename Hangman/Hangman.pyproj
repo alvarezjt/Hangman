@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>19cda970-ae75-49a8-98e0-c182b268e9a3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Hangman.py</StartupFile>
+    <StartupFile>HamgmanTheNewBostonPygame.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Hangman</Name>
     <RootNamespace>Hangman</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="HamgmanTheNewBostonPygame.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Hangman.py" />
   </ItemGroup>
   <ItemGroup>
